@@ -27,7 +27,7 @@ src/
 
 ```bash
 git clone
-cd step_progress_tracker
+cd testimonial-carousel
 npm install
 npm start
 ```

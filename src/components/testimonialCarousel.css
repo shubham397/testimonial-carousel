@@ -1,0 +1,64 @@
+.testimonial-card {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  background-color: #f9fafb;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #e5e7eb;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #374151;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.role {
+  display: block;
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.controls button {
+  background: #e5e7eb;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.controls button:hover {
+  background: #d1d5db;
+}
